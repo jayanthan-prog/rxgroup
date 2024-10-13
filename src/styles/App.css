@@ -1,0 +1,203 @@
+/* General body style */
+body {
+  background-color: #FFFFFF; /* or simply white */
+}
+
+/* Top-left container */
+.top-left-container {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.text {
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+}
+
+.line {
+  margin-top: 10px;
+  height: 2px;
+  width: 100vw; /* Horizontal line spans full width */
+  background-color: rgb(238, 233, 233);
+}
+
+/* Centered image container */
+.center-image-container {
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.center-image {
+  max-width: 30%; /* Ensure image doesn't overflow */
+  height: auto;
+}
+
+/* Text below the image */
+.image-text {
+  margin-top: 10px; /* Space between the image and the text */
+  font-size: 13px;
+  color: #333;
+  line-height: 1.5; /* Improve readability */
+  position: relative; /* Allows for absolute positioning of the button */
+}
+
+/* Add Rx Group button styling */
+.add-rxgroup-button {
+  background-color: white; /* White background */
+  color: darkgreen; /* Dark green text */
+  border: 2px solid green; /* Green border */
+  
+  padding: 5px 10px; /* Reduced padding for smaller button */
+  font-size: 12px; /* Reduced text size */
+  cursor: pointer; /* Change cursor to pointer */
+  
+  display: flex; /* Flexbox for aligning the icon and text */
+  align-items: center; /* Center the icon and text vertically */
+  justify-content: center; /* Center the icon and text horizontally */
+  
+  gap: 5px; /* Reduced space between the icon and text */
+  border-radius: 5px; /* Slightly rounded corners */
+  
+  margin-top: 20px; /* Add space between the text and the button */
+  position: absolute; /* Make the button absolute inside the container */
+  right: 320px; /* Align the button to the right side */
+}
+
+/* Button icon styling */
+.button-icon {
+  width: 12px; /* Reduced icon size */
+  height: 12px;
+}
+
+/* Prevent hover color change */
+.add-rxgroup-button:hover {
+  background-color: white; /* Keep the button background white */
+  color: darkgreen; /* Keep the text color dark green */
+  border-color: green; /* Keep the border green */
+}
+
+/* Email and Password Input Styling */
+.input-group input {
+  color: black; /* Set the input text color to white */
+  background-color: white; /* Dark background to contrast with white text */
+  border: 1px solid #ccc; /* Keep the border light */
+}
+
+.input-group input::placeholder {
+  color: #aaa; /* Light gray placeholder */
+}
+
+/* Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); /* Dark background with transparency */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Modal content box */
+.modal-content {
+  background-color: white;
+  width: 500px; /* Increased the width for a wider modal */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+/* Modal header */
+.modal-header {
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  color: black; /* Changed the text color to black */
+}
+
+/* Modal close button */
+.modal-close-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Modal body */
+.modal-body {
+  padding: 20px 0;
+}
+
+.modal-body label {
+  display: block;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.modal-body input {
+  width: 99%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: white; /* Ensure the input field is white */
+  color: black; /* Text inside the input will be black */
+}
+
+/* Modal footer */
+.modal-footer {
+  text-align: right;
+}
+
+.save-button {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.save-button:hover {
+  background-color: darkgreen;
+}
+
+/* Top-right save button */
+.top-right-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* No Drugs Section */
+.no-drugs {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.no-drugs img {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+}
+
+.no-drugs p {
+  color: #aaa;
+  font-size: 18px;
+  margin-top: 10px;
+}
