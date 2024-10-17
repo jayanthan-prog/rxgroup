@@ -1,0 +1,39 @@
+.top-right-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .profile-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Optional: Makes the image circular */
+    cursor: pointer;
+  }
+  
+  .app-container {
+    position: relative;
+    height: 100vh;
+  }
+  
+  .center-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    text-align: center;
+  }
+  
+  .add-rxgroup-button {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+  }
+  
+  .button-icon {
+    width: 20px;
+    height: 20px;
+  }

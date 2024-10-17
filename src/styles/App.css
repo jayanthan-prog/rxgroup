@@ -33,14 +33,14 @@ body {
 }
 
 .center-image {
-  max-width: 30%; /* Ensure image doesn't overflow */
+  max-width: 90%; /* Ensure image doesn't overflow */
   height: auto;
 }
 
 /* Text below the image */
 .image-text {
   margin-top: 10px; /* Space between the image and the text */
-  font-size: 13px;
+  font-size: 16px;
   color: #333;
   line-height: 1.5; /* Improve readability */
   position: relative; /* Allows for absolute positioning of the button */
@@ -52,7 +52,7 @@ body {
   color: darkgreen; /* Dark green text */
   border: 2px solid green; /* Green border */
   
-  padding: 5px 10px; /* Reduced padding for smaller button */
+  padding: 5px  10 px; /* Reduced padding for smaller button */
   font-size: 12px; /* Reduced text size */
   cursor: pointer; /* Change cursor to pointer */
   
@@ -65,7 +65,7 @@ body {
   
   margin-top: 20px; /* Add space between the text and the button */
   position: absolute; /* Make the button absolute inside the container */
-  right: 320px; /* Align the button to the right side */
+  right: 60px; /* Align the button to the right side */
 }
 
 /* Button icon styling */
@@ -200,4 +200,15 @@ body {
   color: #aaa;
   font-size: 18px;
   margin-top: 10px;
+}
+.profile-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; /* Optional: Makes the image circular */
+  cursor: pointer;
+}
+.top-right-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
